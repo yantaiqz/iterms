@@ -1,5 +1,63 @@
 import streamlit as st
 from urllib.parse import urlparse
+import datetime
+
+# --- 配置参数 ---
+FREE_PERIOD_SECONDS = 60      # 免费试用期 60 秒
+ACCESS_DURATION_HOURS = 24    # 解锁后有效期 24 小时
+UNLOCK_CODE = "vip24"         # 解锁密码
+
+# --- 初始化状态 ---
+if 'start_time' not in st.session_state:
+    st.session_state.start_time = datetime.datetime.now()
+    st.session_state.access_status = 'free' # 状态: free, locked, unlocked
+    st.session_state.unlock_time = None
+
+# --- 核心逻辑 ---
+current_time = datetime.datetime.now()
+access_granted = False
+
+# 1. 免费期检查
+if st.session_state.access_status == 'free':
+    time_elapsed = (current_time - st.session_state.start_time).total_seconds()
+    if time_elapsed < FREE_PERIOD_SECONDS:
+        access_granted = True
+        time_left = FREE_PERIOD_SECONDS - time_elapsed
+        st.info(f"⏳ **免费试用中... 剩余 {time_left:.1f} 秒**")
+    else:
+        st.session_state.access_status = 'locked'
+        st.session_state.start_time = None
+        st.rerun()
+
+# 2. 解锁期检查
+elif st.session_state.access_status == 'unlocked':
+    unlock_expiry = st.session_state.unlock_time + datetime.timedelta(hours=ACCESS_DURATION_HOURS)
+    if current_time < unlock_expiry:
+        access_granted = True
+        time_left = unlock_expiry - current_time
+        hours = int(time_left.total_seconds() // 3600)
+        minutes = int((time_left.total_seconds() % 3600) // 60)
+        st.info(f"🔓 **权限剩余:** {hours}小时 {minutes}分")
+    else:
+        st.session_state.access_status = 'locked'
+        st.session_state.unlock_time = None
+        st.rerun()
+
+# 3. 锁定拦截与解锁表单
+if not access_granted:
+    st.error("🔒 **试用结束，请输入密码解锁**")
+    with st.form("lock_form"):
+        pwd = st.text_input("密码", type="password")
+        if st.form_submit_button("解锁"):
+            if pwd == UNLOCK_CODE:
+                st.session_state.access_status = 'unlocked'
+                st.session_state.unlock_time = datetime.datetime.now()
+                st.success("解锁成功！")
+                st.rerun()
+            else:
+                st.error("密码错误")
+    st.stop() # 停止渲染后续内容
+
 
 # -------------------------------------------------------------
 # 1. 页面配置
