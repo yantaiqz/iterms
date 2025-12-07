@@ -642,7 +642,7 @@ DATA_SOURCE = {
                  {"name": "Bonn Steichen", "url": "https://www.bsp.lu", "desc": "Full Service"},
              ],
              "⚖️ Official": [{"name": "Legilux", "url": "https://legilux.public.lu", "desc": "Legal Portal"}]
-        }
+        },
         "🇷🇺 Russia (俄罗斯)": {
             "🏛️ Market Giants (本土巨头)": [
                 {"name": "EPAM", "url": "https://epam.ru", "desc": "Largest Law Firm in CIS"},
