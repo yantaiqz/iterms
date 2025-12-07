@@ -10,6 +10,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
+
 # 定义数据结构：中国 (CN) 和 美国 (US)
 DATA_SOURCE = {
     "CN": [
