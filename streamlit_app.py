@@ -1276,4 +1276,4 @@ def render_bottom_nav(text_data):
     st.markdown(nav_html, unsafe_allow_html=True)
     
 # 调用渲染函数
-render_bottom_nav(T)
+render_bottom_nav(t)
