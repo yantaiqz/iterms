@@ -223,7 +223,7 @@ UI_TEXT = {
         "nav_1": "Wealth Rank",
         "nav_2": "Global Real Estate",
         "nav_3": "City Housing",
-        "nav_4": "Global Legal",
+        "nav_4": "Legal1000",
         "nav_5": "Global Enterprises",
         "nav_6": "Contract Review",
         "nav_7": "German Tax",
@@ -243,8 +243,8 @@ UI_TEXT = {
         "nav_1": "财富排行",
         "nav_2": "世界房产",
         "nav_3": "城市房价",
-        "nav_4": "全球法律",
-        "nav_5": "全球企业",
+        "nav_4": "法律1000",
+        "nav_5": "跨境合规",
         "nav_6": "合同审查",
         "nav_7": "德国财税",
         "nav_8": "深圳房市"
@@ -1247,7 +1247,7 @@ def render_bottom_nav(text_data):
     """
     nav_html = f"""
     <div class="bottom-nav">
-        <a href="https://youqian.streamlit.app/" class="nav-item active" target="_self">
+        <a href="https://youqian.streamlit.app/" class="nav-item" target="_blank">
             {text_data['nav_1']}
         </a>
         <a href="https://fangchan.streamlit.app/" class="nav-item" target="_blank">
@@ -1256,7 +1256,7 @@ def render_bottom_nav(text_data):
         <a href="https://fangjia.streamlit.app/" class="nav-item" target="_blank">
             {text_data['nav_3']}
         </a>
-        <a href="https://chuhai.streamlit.app/" class="nav-item" target="_blank">
+        <a href="https://chuhai.streamlit.app/" class="nav-item active" target="_blank">
             {text_data['nav_4']}
         </a>
         <a href="https://chuhai.streamlit.app/" class="nav-item" target="_blank">
