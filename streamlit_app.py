@@ -177,12 +177,12 @@ cards_html = '<div class="grid-container">'
 
 for item in items:
     card = f"""
-    <a href="{item['url']}" target="_blank" class="card">
-        <div class="icon-box">{item['icon']}</div>
-        <div class="card-name">{item['name']}</div>
-        <div class="card-desc">{item['desc']}</div>
-        <div class="tag">{item['tag']}</div>
-    </a>
+<a href="{item['url']}" target="_blank" class="card">
+    <div class="icon-box">{item['icon']}</div>
+    <div class="card-name">{item['name']}</div>
+    <div class="card-desc">{item['desc']}</div>
+    <div class="tag">{item['tag']}</div>
+</a>
     """
     cards_html += card
 
