@@ -2,6 +2,55 @@ import streamlit as st
 from urllib.parse import urlparse
 import datetime
 
+import json
+import os
+
+COUNTER_FILE = "visit_stats.json"
+
+def update_daily_visits():
+    """读取并更新每日访问量"""
+    try:
+        today_str = datetime.date.today().isoformat()
+        
+        # 防止同一用户刷新页面导致计数增加
+        if "has_counted" in st.session_state:
+            if os.path.exists(COUNTER_FILE):
+                with open(COUNTER_FILE, "r") as f:
+                    return json.load(f).get("count", 0)
+            return 0
+
+        # 初始化数据结构
+        data = {"date": today_str, "count": 0}
+        
+        # 读取现有文件
+        if os.path.exists(COUNTER_FILE):
+            try:
+                with open(COUNTER_FILE, "r") as f:
+                    file_data = json.load(f)
+                    # 如果是当天，保留计数；如果是新的一天，计数重置(根据需求调整)
+                    # 原代码逻辑是：如果日期匹配则累加，不匹配则重置为0开始
+                    if file_data.get("date") == today_str:
+                        data = file_data
+            except:
+                pass
+        
+        # 计数 +1 并写入
+        data["count"] += 1
+        with open(COUNTER_FILE, "w") as f:
+            json.dump(data, f)
+        
+        # 标记该用户已统计
+        st.session_state["has_counted"] = True
+        return data["count"]
+        
+    except Exception as e:
+        return 0
+
+# 调用并显示
+daily_visits = update_daily_visits()
+st.caption(f"今日访问量: {daily_visits}")
+
+
 # --- 配置参数 ---
 FREE_PERIOD_SECONDS = 60      # 免费试用期 60 秒
 ACCESS_DURATION_HOURS = 24    # 解锁后有效期 24 小时
