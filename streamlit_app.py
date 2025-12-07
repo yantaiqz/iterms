@@ -23,7 +23,7 @@ UI_TEXT = {
         "country_label": "Select Jurisdiction",
         "filter_label": "Filter Categories",
         "filter_placeholder": "Filter by Category",  # <--- 之前漏了这行
-        "footer": "© 2024 LegalTech Nexus. Logos via Google API.",
+        "footer": "© 2025 Legal1000 Global. Logos via Google API.",
         "no_result": "No resources found.",
         "showing": "Showing {} resources"
     },
@@ -56,6 +56,21 @@ DATA_SOURCE = {
     # ================= 🌏 亚太地区 (Asia Pacific) =================
     "🌏 Asia Pacific (亚太)": {
         "🇨🇳 China (中国)": {
+            "🤖 LegalTech & Data (科技/数据)": [
+                {"name": "法大大", "url": "https://www.fadada.com", "desc": "E-Signature Platform"},
+                {"name": "iTerms", "url": "https://www.iterms.com", "desc": "AI Contract Revew"},
+                {"name": "北大法宝", "url": "https://www.pkulaw.com", "desc": "Leading Legal Database"},
+                {"name": "威科先行", "url": "https://law.wkinfo.com.cn", "desc": "Wolters Kluwer China"},
+                {"name": "无讼", "url": "https://www.itslaw.com", "desc": "Litigation Data"},
+                {"name": "天眼查", "url": "https://www.tianyancha.com", "desc": "Business Data"},
+                {"name": "企查查", "url": "https://www.qcc.com", "desc": "Credit Info"},
+                {"name": "秘塔科技", "url": "https://www.metaso.cn", "desc": "AI Search"},
+                {"name": "幂律智能", "url": "https://www.powerlaw.ai", "desc": "AI Contract Review"},
+                {"name": "理脉", "url": "https://www.legalminer.com", "desc": "Legal Big Data"},
+                {"name": "法天使", "url": "https://www.fats.cn", "desc": "Contract Templates"},
+                {"name": "华宇信息", "url": "https://www.thunisoft.com", "desc": "Court Information Systems"},
+                {"name": "国双 (Gridsum)", "url": "http://www.gridsum.com", "desc": "Judicial Big Data"},
+            ],
             "🏛️ Red Circle & Top Firms (红圈/顶级律所)": [
                 {"name": "金杜 (KWM)", "url": "https://www.kwm.com", "desc": "Red Circle Elite"},
                 {"name": "君合 (JunHe)", "url": "https://www.junhe.com", "desc": "Premier Commercial Firm"},
@@ -100,21 +115,6 @@ DATA_SOURCE = {
                 {"name": "Merits & Tree (植德)", "url": "http://www.meritsandtree.com", "desc": "Asset Management"},
                 {"name": "Llinks (通力)", "url": "http://www.llinkslaw.com", "desc": "Financial Law"},
                 {"name": "AnJie Broad (安杰世泽)", "url": "http://www.anjielaw.com", "desc": "Antitrust & Insurance"},
-            ],
-            "🤖 LegalTech & Data (科技/数据)": [
-                {"name": "北大法宝", "url": "https://www.pkulaw.com", "desc": "Leading Legal Database"},
-                {"name": "威科先行", "url": "https://law.wkinfo.com.cn", "desc": "Wolters Kluwer China"},
-                {"name": "无讼", "url": "https://www.itslaw.com", "desc": "Litigation Data"},
-                {"name": "法大大", "url": "https://www.fadada.com", "desc": "E-Signature Platform"},
-                {"name": "e签宝", "url": "https://www.esign.cn", "desc": "E-Contract Mgmt"},
-                {"name": "天眼查", "url": "https://www.tianyancha.com", "desc": "Business Data"},
-                {"name": "企查查", "url": "https://www.qcc.com", "desc": "Credit Info"},
-                {"name": "秘塔科技", "url": "https://www.metaso.cn", "desc": "AI Search"},
-                {"name": "幂律智能", "url": "https://www.powerlaw.ai", "desc": "AI Contract Review"},
-                {"name": "理脉", "url": "https://www.legalminer.com", "desc": "Legal Big Data"},
-                {"name": "法天使", "url": "https://www.fats.cn", "desc": "Contract Templates"},
-                {"name": "华宇信息", "url": "https://www.thunisoft.com", "desc": "Court Information Systems"},
-                {"name": "国双 (Gridsum)", "url": "http://www.gridsum.com", "desc": "Judicial Big Data"},
             ],
              "💼 Compliance & Consulting (合规/四大)": [
                 {"name": "普华永道 (PwC Legal)", "url": "https://www.pwccn.com", "desc": "Legal & Tax Services"},
