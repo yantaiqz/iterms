@@ -22,6 +22,7 @@ UI_TEXT = {
         "region_group_label": "Select Region Group",
         "country_label": "Select Jurisdiction",
         "filter_label": "Filter Categories",
+        "filter_placeholder": "Filter by Category",  # <--- 之前漏了这行
         "footer": "© 2024 LegalTech Nexus. Logos via Google API.",
         "no_result": "No resources found.",
         "showing": "Showing {} resources"
@@ -33,6 +34,7 @@ UI_TEXT = {
         "region_group_label": "选择区域板块",
         "country_label": "选择司法管辖区",
         "filter_label": "分类筛选",
+        "filter_placeholder": "按分类筛选",  # <--- 之前漏了这行
         "footer": "© 2024 LegalTech Nexus. Logo 由 Google API 自动生成。",
         "no_result": "未找到匹配资源。",
         "showing": "共显示 {} 个资源"
