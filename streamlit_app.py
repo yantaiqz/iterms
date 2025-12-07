@@ -643,6 +643,55 @@ DATA_SOURCE = {
              ],
              "⚖️ Official": [{"name": "Legilux", "url": "https://legilux.public.lu", "desc": "Legal Portal"}]
         }
+        "🇷🇺 Russia (俄罗斯)": {
+            "🏛️ Market Giants (本土巨头)": [
+                {"name": "EPAM", "url": "https://epam.ru", "desc": "Largest Law Firm in CIS"},
+                {"name": "ALRUD", "url": "https://www.alrud.com", "desc": "Top Tier Corporate"},
+                {"name": "Pepeliaev Group", "url": "https://www.pepeliaevgroup.ru", "desc": "Tax Litigation Leader"},
+                {"name": "Monastyrsky (MZS)", "url": "https://www.mzs.ru", "desc": "Dispute Resolution"},
+                {"name": "Lidings", "url": "https://www.lidings.com", "desc": "Advising Foreign Business"},
+            ],
+            "🔄 New Wave / Spin-offs (原外资所重组)": [
+                {"name": "Rybalkin (RGD)", "url": "https://rgd.legal", "desc": "Ex-Freshfields/Cleary Team"},
+                {"name": "Better Chance", "url": "https://betterchance.ru", "desc": "Ex-Clifford Chance Team"},
+                {"name": "Stonebridge", "url": "https://stonebridgelegal.ru", "desc": "Ex-Freshfields Team"},
+                {"name": "Nikolskaya Consulting", "url": "https://nikolskaya.ru", "desc": "Ex-Herbert Smith Freehills"},
+                {"name": "Level Legal", "url": "https://level.legal", "desc": "Ex-Hogan Lovells Team"},
+                {"name": "Nextons", "url": "https://nextons.ru", "desc": "Ex-Dentons Russia"},
+                {"name": "Kept Legal", "url": "https://kept.ru", "desc": "Ex-KPMG Law"},
+                {"name": "TeDo", "url": "https://tedo.ru", "desc": "Ex-PwC Legal"},
+            ],
+            "💻 LegalTech & Official (科技/官方)": [
+                {"name": "Pravo.gov.ru", "url": "http://pravo.gov.ru", "desc": "Official Legal Information"},
+                {"name": "Kad.Arbitr", "url": "https://kad.arbitr.ru", "desc": "Commercial Case Database"},
+                {"name": "Consultant Plus", "url": "http://www.consultant.ru", "desc": "Leading Legal Research"},
+                {"name": "Garant", "url": "https://www.garant.ru", "desc": "Legal Reference System"},
+                {"name": "Casebook", "url": "https://casebook.ru", "desc": "Litigation Analytics"},
+                {"name": "Doczilla", "url": "https://doczilla.pro", "desc": "AI Contract Drafting"},
+            ]
+        },
+        "🇹🇷 Turkey (土耳其)": {
+            "🏛️ Top Tier Firms (顶级律所)": [
+                {"name": "Paksoy", "url": "https://www.paksoy.av.tr", "desc": "Leading Independent Firm"},
+                {"name": "Herguner Bilgen Ozeke", "url": "https://www.herguner.av.tr", "desc": "Corporate Powerhouse"},
+                {"name": "Pekin & Pekin", "url": "https://www.pekin.com.tr", "desc": "Oldest Firm in Turkey"},
+                {"name": "Esin Attorney", "url": "https://www.esin.av.tr", "desc": "Baker McKenzie Member"},
+                {"name": "BASEAK", "url": "https://www.baseak.com", "desc": "Dentons Affiliate"},
+                {"name": "Balcioglu Selcuk (BSEL)", "url": "https://www.bsel.com.tr", "desc": "Capital Markets"},
+                {"name": "Turunc", "url": "https://turunc.com", "desc": "M&A and Finance"},
+                {"name": "Kolcuoglu (KDK)", "url": "https://www.kolcuoglu.av.tr", "desc": "Energy & Infrastructure"},
+                {"name": "Moroglu Arseven", "url": "https://www.morogluarseven.com", "desc": "IP & Dispute"},
+                {"name": "Gun + Partners", "url": "https://gun.av.tr", "desc": "IP & Commercial"},
+            ],
+            "⚖️ Official & LegalTech (官方/科技)": [
+                {"name": "Resmi Gazete", "url": "https://www.resmigazete.gov.tr", "desc": "Official Gazette"},
+                {"name": "UYAP", "url": "https://www.uyap.gov.tr", "desc": "National Judiciary Network"},
+                {"name": "Mevzuat", "url": "https://www.mevzuat.gov.tr", "desc": "Legislation Database"},
+                {"name": "Lexpera", "url": "https://www.lexpera.com.tr", "desc": "Legal Info System"},
+                {"name": "Corpus", "url": "https://www.corpus.com.tr", "desc": "Case Law Search"},
+                {"name": "Constitutional Court", "url": "https://www.anayasa.gov.tr", "desc": "Highest Court"},
+            ]
+        }
     },
     # ================= 💃 拉丁美洲 (Latin America) =================
     "💃 Latin America (拉美)": {
