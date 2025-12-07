@@ -237,27 +237,70 @@ DATA_SOURCE = {
                 {"name": "Manupatra", "url": "https://www.manupatra.com", "desc": "Legal Research"},
             ]
         },
-        "🇭🇰 Hong Kong (香港)": {
-             "🏛️ Firms": [
-                 {"name": "Deacons", "url": "https://www.deacons.com", "desc": "Largest Independent"},
-                 {"name": "Woo Kwan Lee & Lo", "url": "https://www.wkll.com", "desc": "Real Estate"},
-                 {"name": "Gall", "url": "https://www.gallhk.com", "desc": "Dispute Resolution"},
-                 {"name": "Mayer Brown", "url": "https://www.mayerbrown.com", "desc": "Major Presence"},
+      "🇭🇰 Hong Kong (香港)": {
+             "🏛️ Leading Local Firms (本地大所)": [
+                 {"name": "Deacons (的近)", "url": "https://www.deacons.com", "desc": "Largest Independent HK Firm"},
+                 {"name": "Woo Kwan Lee & Lo (胡关李罗)", "url": "https://www.wkll.com", "desc": "Real Estate & Corporate"},
+                 {"name": "Gall", "url": "https://www.gallhk.com", "desc": "Dispute Resolution Specialist"},
+                 {"name": "Tanner De Witt", "url": "https://www.tannerdewitt.com", "desc": "Insolvency & Restructuring"},
+                 {"name": "Wilkinson & Grist (高露云)", "url": "https://www.wilgrist.com", "desc": "IP & Conveyancing"},
+                 {"name": "P.C. Woo & Co (胡百全)", "url": "https://www.pcwoo.com", "desc": "Established 1945"},
+                 {"name": "Howse Williams", "url": "https://www.howsewilliams.com", "desc": "Independent Full Service"},
+                 {"name": "Robertsons", "url": "https://www.robertsons-hk.com", "desc": "Commercial & Criminal"},
+                 {"name": "Charltons", "url": "https://www.charltonslaw.com", "desc": "Boutique Corporate Finance"},
+             ],
+             "⚖️ Barristers Chambers (大律师办事处)": [
+                 {"name": "Temple Chambers", "url": "https://templechambers.com", "desc": "Top Commercial Chambers"},
+                 {"name": "Des Voeux Chambers (DVC)", "url": "https://dvc.hk", "desc": "Leading Commercial & IP"},
+                 {"name": "Denis Chang's Chambers", "url": "https://dcc.law", "desc": "Public Law & Civil"},
+                 {"name": "Plowman Chambers", "url": "https://www.plowman.com.hk", "desc": "Criminal Litigation"},
+                 {"name": "Parkside Chambers", "url": "https://www.parksidechambers.com", "desc": "General Civil"},
+             ],
+             "🌏 International Giants in HK (国际所)": [
+                 {"name": "Mayer Brown", "url": "https://www.mayerbrown.com", "desc": "Massive HK Presence"},
+                 {"name": "Clifford Chance HK", "url": "https://www.cliffordchance.com", "desc": "Magic Circle"},
+                 {"name": "Linklaters HK", "url": "https://www.linklaters.com", "desc": "Capital Markets"},
+                 {"name": "Allen & Overy HK", "url": "https://www.allenovery.com", "desc": "Finance"},
+                 {"name": "Kirkland & Ellis HK", "url": "https://www.kirkland.com", "desc": "PE & Restructuring"},
+                 {"name": "Skadden HK", "url": "https://www.skadden.com", "desc": "IPO & M&A"},
+                 {"name": "Davis Polk HK", "url": "https://www.davispolk.com", "desc": "US Law in HK"},
                  {"name": "King & Wood HK", "url": "https://www.kwm.com", "desc": "KWM Base"},
              ],
-             "⚖️ Official": [
-                 {"name": "Judiciary", "url": "https://www.judiciary.hk", "desc": "Courts"},
-                 {"name": "HKLII", "url": "https://www.hklii.org", "desc": "Free Law"},
-                 {"name": "HKIAC", "url": "https://www.hkiac.org", "desc": "Arbitration"},
+             "🏛️ Official & Regulators (官方/监管)": [
+                 {"name": "HK Judiciary", "url": "https://www.judiciary.hk", "desc": "Courts System"},
+                 {"name": "HKLII", "url": "https://www.hklii.org", "desc": "Free Legal Info"},
+                 {"name": "SFC (证监会)", "url": "https://www.sfc.hk", "desc": "Securities Regulator"},
+                 {"name": "HKEX (港交所)", "url": "https://www.hkex.com.hk", "desc": "Stock Exchange"},
+                 {"name": "HKIAC (仲裁中心)", "url": "https://www.hkiac.org", "desc": "Arbitration Centre"},
+                 {"name": "DoJ (律政司)", "url": "https://www.doj.gov.hk", "desc": "Dept of Justice"},
+                 {"name": "Law Society of HK", "url": "https://www.hklawsoc.org.hk", "desc": "Solicitors Body"},
+                 {"name": "HK Bar Assoc", "url": "https://www.hkba.org", "desc": "Barristers Body"},
+                 {"name": "IPD (知识产权署)", "url": "https://www.ipd.gov.hk", "desc": "IP Office"},
+                 {"name": "e-Bram", "url": "https://www.ebram.org", "desc": "Online Dispute Resolution"},
              ]
         },
         "🇹🇼 Taiwan (中国台湾)": {
-            "🏛️ Firms": [
-                {"name": "Lee and Li (理律)", "url": "https://www.leeandli.com", "desc": "Largest Firm"},
-                {"name": "Tsar & Tsai (常在)", "url": "https://www.tsartsai.com.tw", "desc": "Corporate"},
-                {"name": "Formosa Transnational", "url": "https://www.fts.com.tw", "desc": "Litigation"},
+            "🏛️ Top Firms (顶级律所)": [
+                {"name": "Lee and Li (理律)", "url": "https://www.leeandli.com", "desc": "Largest & Full Service"},
+                {"name": "Tsar & Tsai (常在)", "url": "https://www.tsartsai.com.tw", "desc": "Prestigious Corporate"},
+                {"name": "Formosa Transnational (万国)", "url": "https://www.fts.com.tw", "desc": "Litigation Experts"},
+                {"name": "LCS & Partners (协合)", "url": "https://www.lcs.com.tw", "desc": "M&A and Finance"},
+                {"name": "Baker McKenzie Taipei", "url": "https://www.bakermckenzie.com", "desc": "Global Reach"},
+                {"name": "Jones Day Taipei", "url": "https://www.jonesday.com", "desc": "Leading US Firm in TW"},
+                {"name": "Chen & Lin (众达)", "url": "https://www.chenandlin.com", "desc": "IP & Tech"},
+                {"name": "Brain Trust (博思)", "url": "https://www.braintrustlaw.com", "desc": "International Disputes"},
             ],
-            "⚖️ Official": [{"name": "Laws Database", "url": "https://law.moj.gov.tw", "desc": "MoJ Database"}]
+            "🔬 IP & Agencies (知产代理)": [
+                {"name": "Saint Island (圣岛)", "url": "http://www.saint-island.com.tw", "desc": "Top IP Agency"},
+                {"name": "Tai E (台一)", "url": "http://www.taie.com.tw", "desc": "Patent & Trademark"},
+            ],
+            "⚖️ Official & Gov (官方)": [
+                {"name": "Judicial Yuan (司法院)", "url": "https://www.judicial.gov.tw", "desc": "Highest Judicial Organ"},
+                {"name": "Laws & Regulations (法规)", "url": "https://law.moj.gov.tw", "desc": "MoJ Database"},
+                {"name": "TIPO (智慧局)", "url": "https://www.tipo.gov.tw", "desc": "Intellectual Property Office"},
+                {"name": "Ministry of Justice", "url": "https://www.moj.gov.tw", "desc": "Justice Dept"},
+                {"name": "Fair Trade Comm", "url": "https://www.ftc.gov.tw", "desc": "Antitrust Regulator"},
+            ]
         },
         "🇦🇺 Australia (澳大利亚)": {
             "🏛️ Top Tier Firms": [
@@ -437,8 +480,7 @@ DATA_SOURCE = {
         }
     },
 
-
-    # ================= 欧洲 (Europe / EMEA) =================
+# ================= 🌍 欧洲 (Europe / EMEA) =================
     "🌍 Europe (欧洲)": {
         "🇬🇧 UK (英国)": {
             "🏰 Magic & Silver Circle (顶尖律所)": [
@@ -449,46 +491,91 @@ DATA_SOURCE = {
                 {"name": "Slaughter and May", "url": "https://www.slaughterandmay.com", "desc": "Prestigious Blue-blood"},
                 {"name": "Herbert Smith Freehills", "url": "https://www.herbertsmithfreehills.com", "desc": "Litigation Powerhouse"},
                 {"name": "Ashurst", "url": "https://www.ashurst.com", "desc": "Projects & Finance"},
-                {"name": "Bryan Cave (BCLP)", "url": "https://www.bclplaw.com", "desc": "Real Estate"},
-                {"name": "CMS", "url": "https://cms.law", "desc": "Largest in Europe"},
-                {"name": "Macfarlanes", "url": "https://www.macfarlanes.com", "desc": "Private Client"},
+                {"name": "Macfarlanes", "url": "https://www.macfarlanes.com", "desc": "Private Client & Corp"},
                 {"name": "Travers Smith", "url": "https://www.traverssmith.com", "desc": "Corporate Boutique"},
-                {"name": "Simmons & Simmons", "url": "https://www.simmons-simmons.com", "desc": "FinTech & Funds"},
-                {"name": "Pinsent Masons", "url": "https://www.pinsentmasons.com", "desc": "Construction & Energy"},
-                {"name": "Clyde & Co", "url": "https://www.clydeco.com", "desc": "Insurance & Shipping"},
-                {"name": "Bird & Bird", "url": "https://www.twobirds.com", "desc": "IP & Tech focus"},
             ],
-            "💡 LegalTech & Official (科技/官方)": [
+            "🎓 Barristers Chambers (大律师公会)": [
+                {"name": "Essex Court", "url": "https://essexcourt.com", "desc": "Commercial Arbitration"},
+                {"name": "Blackstone", "url": "https://www.blackstonechambers.com", "desc": "Public Law & Comm"},
+                {"name": "Brick Court", "url": "https://www.brickcourt.co.uk", "desc": "Competition & EU"},
+                {"name": "Fountain Court", "url": "https://www.fountaincourt.co.uk", "desc": "Banking & Fraud"},
+                {"name": "One Essex Court", "url": "https://www.oeclaw.co.uk", "desc": "Commercial Lit"},
+                {"name": "Monckton", "url": "https://www.monckton.com", "desc": "Competition Law"},
+            ],
+            "💡 Tech & Official (科技/官方)": [
                 {"name": "legislation.gov.uk", "url": "https://www.legislation.gov.uk", "desc": "Official Laws"},
+                {"name": "Supreme Court UK", "url": "https://www.supremecourt.uk", "desc": "Highest Court"},
                 {"name": "BAILII", "url": "https://www.bailii.org", "desc": "Case Law Database"},
                 {"name": "Luminance", "url": "https://www.luminance.com", "desc": "AI Document Review"},
                 {"name": "Juro", "url": "https://juro.com", "desc": "Contract Platform"},
                 {"name": "Companies House", "url": "https://www.gov.uk/government/organisations/companies-house", "desc": "Company Registry"},
-                {"name": "The Law Society", "url": "https://www.lawsociety.org.uk", "desc": "Solicitors Body"},
-                {"name": "SRA", "url": "https://www.sra.org.uk", "desc": "Regulation Authority"},
-                {"name": "Practical Law", "url": "https://uk.practicallaw.thomsonreuters.com", "desc": "Legal Know-How"},
+                {"name": "SRA", "url": "https://www.sra.org.uk", "desc": "Solicitors Regulation"},
             ]
         },
-        "🇩🇪 Germany (德国)": {"Top Firms": [{"name": "Hengeler Mueller", "url": "https://www.hengeler.com", "desc": "Top Tier"}]}, # 占位
-        "🇫🇷 France (法国)": {"Top Cabinets": [{"name": "Bredin Prat", "url": "https://www.bredinprat.com", "desc": "Elite"}]}, # 占位
+        "🇩🇪 Germany (德国)": {
+            "🏛️ Top Kanzleien (顶尖律所)": [
+                {"name": "Hengeler Mueller", "url": "https://www.hengeler.com", "desc": "Market Leader"},
+                {"name": "Gleiss Lutz", "url": "https://www.gleisslutz.com", "desc": "Full Service Elite"},
+                {"name": "Noerr", "url": "https://www.noerr.com", "desc": "Leading Independent"},
+                {"name": "Luther", "url": "https://www.luther-lawfirm.com", "desc": "Mid-market specialist"},
+                {"name": "Heuking", "url": "https://www.heuking.de", "desc": "Large partnership"},
+                {"name": "CMS Germany", "url": "https://cms.law/en/deu", "desc": "Largest Tech Practice"},
+                {"name": "Flick Gocke Schaumburg", "url": "https://www.fgs.de", "desc": "Tax Heavyweight"},
+                {"name": "Görg", "url": "https://www.goerg.de", "desc": "Insolvency"},
+                {"name": "Beiten Burkhardt", "url": "https://www.advant-beiten.com", "desc": "Advant Network"},
+            ],
+            "⚖️ Official & Tech": [
+                {"name": "Juris", "url": "https://www.juris.de", "desc": "Legal Database"},
+                {"name": "Beck-Online", "url": "https://beck-online.beck.de", "desc": "Legal Research"},
+                {"name": "Gesetze-im-internet", "url": "https://www.gesetze-im-internet.de", "desc": "Federal Laws"},
+                {"name": "BVerfG", "url": "https://www.bundesverfassungsgericht.de", "desc": "Constitutional Court"},
+                {"name": "DPMA", "url": "https://www.dpma.de", "desc": "Patent Office"},
+                {"name": "BRYTER", "url": "https://bryter.com", "desc": "No-code Automation"},
+            ]
+        },
+        "🇫🇷 France (法国)": {
+            "🏛️ Top Cabinets (顶尖律所)": [
+                {"name": "Bredin Prat", "url": "https://www.bredinprat.com", "desc": "Corporate & Litigation"},
+                {"name": "Darrois Villey", "url": "https://www.darroisvilley.com", "desc": "M&A Prestige"},
+                {"name": "Gide Loyrette Nouel", "url": "https://www.gide.com", "desc": "International French Firm"},
+                {"name": "Fidal", "url": "https://www.fidal.com", "desc": "Largest Business Firm"},
+                {"name": "August Debouzy", "url": "https://www.august-debouzy.com", "desc": "Modern Full Service"},
+                {"name": "DS Avocats", "url": "https://www.dsavocats.com", "desc": "International Network"},
+                {"name": "De Pardieu Brocas", "url": "https://www.de-pardieu.com", "desc": "Finance & Real Estate"},
+                {"name": "Jeantet", "url": "https://www.jeantet.fr", "desc": "Historical Business Firm"},
+            ],
+            "⚖️ Official & Tech": [
+                {"name": "Légifrance", "url": "https://www.legifrance.gouv.fr", "desc": "Official Laws"},
+                {"name": "Cour de cassation", "url": "https://www.courdecassation.fr", "desc": "Supreme Court"},
+                {"name": "Doctrine", "url": "https://www.doctrine.fr", "desc": "Legal Intelligence"},
+                {"name": "Jus Mundi", "url": "https://jusmundi.com", "desc": "Intl Arbitration Search"},
+                {"name": "CNIL", "url": "https://www.cnil.fr", "desc": "Data Protection"},
+            ]
+        },
         "🇨🇭 Switzerland (瑞士)": {
-            "🏛️ Top Firms": [
+            "🏛️ Top Firms (顶尖律所)": [
                 {"name": "Lenz & Staehelin", "url": "https://www.lenzstaehelin.com", "desc": "Largest Swiss Firm"},
+                {"name": "Bär & Karrer", "url": "https://www.baerkarrer.ch", "desc": "M&A & Capital Markets"},
                 {"name": "Schellenberg Wittmer", "url": "https://www.swlegal.ch", "desc": "Arbitration & Corp"},
-                {"name": "Bär & Karrer", "url": "https://www.baerkarrer.ch", "desc": "M&A Focus"},
                 {"name": "Walder Wyss", "url": "https://www.walderwyss.com", "desc": "Rapidly Growing"},
+                {"name": "Niederer Kraft Frey", "url": "https://www.nkf.ch", "desc": "Finance & Corporate"},
+                {"name": "Homburger", "url": "https://homburger.ch", "desc": "Commercial Law"},
             ],
             "⚖️ Official": [
                 {"name": "Swisslex", "url": "https://www.swisslex.ch", "desc": "Legal Database"},
                 {"name": "Federal Supreme Court", "url": "https://www.bger.ch", "desc": "Judiciary"},
                 {"name": "Zefix", "url": "https://www.zefix.ch", "desc": "Commercial Register"},
+                {"name": "Fedlex", "url": "https://www.fedlex.admin.ch", "desc": "Federal Law"},
             ]
         },
         "🇳🇱 Netherlands (荷兰)": {
-            "🏛️ De Brauw & Others": [
+            "🏛️ De Brauw & Others (顶级律所)": [
                 {"name": "De Brauw", "url": "https://www.debrauw.com", "desc": "Global Litigation"},
                 {"name": "NautaDutilh", "url": "https://www.nautadutilh.com", "desc": "Benelux Leader"},
                 {"name": "Houthoff", "url": "https://www.houthoff.com", "desc": "Top Tier"},
+                {"name": "Loyens & Loeff", "url": "https://www.loyensloeff.com", "desc": "Tax & Civil Law"},
+                {"name": "Stibbe", "url": "https://www.stibbe.com", "desc": "Internationally Oriented"},
+                {"name": "Van Doorne", "url": "https://www.vandoorne.com", "desc": "Independent"},
             ],
             "⚖️ Official": [
                 {"name": "Rechtspraak", "url": "https://www.rechtspraak.nl", "desc": "Judiciary Portal"},
@@ -496,132 +583,251 @@ DATA_SOURCE = {
             ]
         },
         "🇮🇹 Italy (意大利)": {
-            "🏛️ Firms": [
+            "🏛️ Top Firms (顶尖律所)": [
                 {"name": "BonelliErede", "url": "https://belex.com", "desc": "Market Leader"},
-                {"name": "Chiomenti", "url": "https://www.chiomenti.net", "desc": "Institutional"},
+                {"name": "Chiomenti", "url": "https://www.chiomenti.net", "desc": "Institutional Elite"},
                 {"name": "Legance", "url": "https://www.legance.com", "desc": "Modern Independent"},
+                {"name": "Gianni & Origoni", "url": "https://www.gop.it", "desc": "International Corporate"},
+                {"name": "NCTM", "url": "https://www.nctm.it", "desc": "Tech & Innovation"},
+                {"name": "Pedersoli", "url": "https://www.pedersoli.it", "desc": "M&A Boutique"},
             ],
             "⚖️ Official": [
                 {"name": "Normattiva", "url": "https://www.normattiva.it", "desc": "Laws Database"},
                 {"name": "Corte Costituzionale", "url": "https://www.cortecostituzionale.it", "desc": "Constitutional Court"},
+                {"name": "Giustizia", "url": "https://www.giustizia.it", "desc": "Ministry of Justice"},
             ]
         },
         "🇪🇸 Spain (西班牙)": {
-            "🏛️ Firms": [
+            "🏛️ Top Firms (顶尖律所)": [
                 {"name": "Garrigues", "url": "https://www.garrigues.com", "desc": "Largest in Continental Europe"},
                 {"name": "Cuatrecasas", "url": "https://www.cuatrecasas.com", "desc": "Iberian Leader"},
                 {"name": "Uría Menéndez", "url": "https://www.uria.com", "desc": "Prestigious Elite"},
+                {"name": "Pérez-Llorca", "url": "https://www.perezllorca.com", "desc": "High-end Corporate"},
+                {"name": "Gómez-Acebo & Pombo", "url": "https://www.ga-p.com", "desc": "Full Service"},
             ],
-             "⚖️ Official": [{"name": "BOE", "url": "https://www.boe.es", "desc": "Official Gazette"}]
+            "⚖️ Official": [
+                {"name": "BOE", "url": "https://www.boe.es", "desc": "Official Gazette"},
+                {"name": "Poder Judicial", "url": "https://www.poderjudicial.es", "desc": "Judiciary"},
+            ]
         },
         "🇸🇪 Sweden (瑞典)": {
-             "🏛️ Firms": [{"name": "Vinge", "url": "https://www.vinge.se", "desc": "M&A Leader"}, {"name": "Mannheimer Swartling", "url": "https://www.mannheimerswartling.se", "desc": "Top Nordic"}],
-             "⚖️ Gov": [{"name": "Lagrummet", "url": "https://www.lagrummet.se", "desc": "Legal Portal"}]
+             "🏛️ Firms": [
+                 {"name": "Vinge", "url": "https://www.vinge.se", "desc": "M&A Leader"},
+                 {"name": "Mannheimer Swartling", "url": "https://www.mannheimerswartling.se", "desc": "Top Nordic Firm"},
+                 {"name": "Setterwalls", "url": "https://setterwalls.se", "desc": "Oldest Firm"},
+             ],
+             "⚖️ Official": [{"name": "Lagrummet", "url": "https://www.lagrummet.se", "desc": "Legal Portal"}]
         },
         "🇮🇪 Ireland (爱尔兰)": {
-             "🏛️ Firms": [{"name": "Arthur Cox", "url": "https://www.arthurcox.com", "desc": "Top Tier"}, {"name": "Matheson", "url": "https://www.matheson.com", "desc": "Intl Focus"}],
-             "⚖️ Gov": [{"name": "Courts.ie", "url": "https://www.courts.ie", "desc": "Courts Service"}]
+             "🏛️ Firms": [
+                 {"name": "Arthur Cox", "url": "https://www.arthurcox.com", "desc": "Top Tier"},
+                 {"name": "Matheson", "url": "https://www.matheson.com", "desc": "Intl Focus"},
+                 {"name": "A&L Goodbody", "url": "https://www.algoodbody.com", "desc": "Corporate Leader"},
+                 {"name": "McCann FitzGerald", "url": "https://www.mccannfitzgerald.com", "desc": "Banking & Finance"},
+             ],
+             "⚖️ Official": [{"name": "Courts.ie", "url": "https://www.courts.ie", "desc": "Courts Service"}]
         },
         "🇧🇪 Belgium (比利时)": {
-             "🏛️ Firms": [{"name": "Eubelius", "url": "https://www.eubelius.com", "desc": "Leading Independent"}],
-             "⚖️ Gov": [{"name": "Moniteur Belge", "url": "https://www.ejustice.just.fgov.be", "desc": "Official Journal"}]
+             "🏛️ Firms": [
+                 {"name": "Eubelius", "url": "https://www.eubelius.com", "desc": "Leading Independent"},
+                 {"name": "Liedekerke", "url": "https://liedekerke.com", "desc": "Business Law"},
+                 {"name": "Stibbe Brussels", "url": "https://www.stibbe.com", "desc": "Benelux Giant"},
+             ],
+             "⚖️ Official": [{"name": "Moniteur Belge", "url": "https://www.ejustice.just.fgov.be", "desc": "Official Journal"}]
         },
         "🇱🇺 Luxembourg (卢森堡)": {
-             "🏛️ Firms": [{"name": "Arendt & Medernach", "url": "https://www.arendt.com", "desc": "Largest Firm"}, {"name": "Elvinger Hoss", "url": "https://www.elvingerhoss.pr", "desc": "Fund Formation"}],
-             "⚖️ Gov": [{"name": "Legilux", "url": "https://legilux.public.lu", "desc": "Legal Portal"}]
-        },
-        "🇷🇺 Russia (俄罗斯)": {
-             "🏛️ Firms": [{"name": "EPAM", "url": "https://epam.ru", "desc": "Largest CIS Firm"}],
-             "⚖️ Gov": [{"name": "Pravo.gov.ru", "url": "http://pravo.gov.ru", "desc": "Official Legal Info"}]
-        },
-        "🇹🇷 Turkey (土耳其)": {
-             "🏛️ Firms": [{"name": "Paksoy", "url": "https://www.paksoy.av.tr", "desc": "Leading Independent"}],
-             "⚖️ Gov": [{"name": "Resmi Gazete", "url": "https://www.resmigazete.gov.tr", "desc": "Official Gazette"}]
+             "🏛️ Firms": [
+                 {"name": "Arendt & Medernach", "url": "https://www.arendt.com", "desc": "Largest Firm"},
+                 {"name": "Elvinger Hoss", "url": "https://www.elvingerhoss.pr", "desc": "Fund Formation"},
+                 {"name": "Bonn Steichen", "url": "https://www.bsp.lu", "desc": "Full Service"},
+             ],
+             "⚖️ Official": [{"name": "Legilux", "url": "https://legilux.public.lu", "desc": "Legal Portal"}]
         }
     },
-
-    # ================= 拉丁美洲 (LatAm) =================
+    # ================= 💃 拉丁美洲 (Latin America) =================
     "💃 Latin America (拉美)": {
         "🇧🇷 Brazil (巴西)": {
-            "🏛️ Top Firms": [
+            "🏛️ Big Law (顶级律所)": [
                 {"name": "Mattos Filho", "url": "https://www.mattosfilho.com.br", "desc": "Premium Full Service"},
                 {"name": "Pinheiro Neto", "url": "https://www.pinheironeto.com.br", "desc": "Traditional Elite"},
                 {"name": "Machado Meyer", "url": "https://www.machadomeyer.com.br", "desc": "Banking & Finance"},
+                {"name": "Demarest Advogados", "url": "https://www.demarest.com.br", "desc": "Major Corporate Firm"},
+                {"name": "Veirano Advogados", "url": "https://www.veirano.com.br", "desc": "International Focus"},
+                {"name": "BMA Advogados", "url": "https://www.bmalaw.com.br", "desc": "M&A & Crypto"},
+                {"name": "TozziniFreire", "url": "https://tozzinifreire.com.br", "desc": "Established Leader"},
+                {"name": "Lefosse", "url": "https://www.lefosse.com", "desc": "Capital Markets"},
             ],
-            "⚖️ Official": [
-                {"name": "STF", "url": "https://portal.stf.jus.br", "desc": "Supreme Federal Court"},
-                {"name": "Planalto", "url": "http://www4.planalto.gov.br/legislacao", "desc": "Legislation"},
-            ],
-             "💻 Tech": [{"name": "Jusbrasil", "url": "https://www.jusbrasil.com.br", "desc": "Largest Legal Tech"}]
+            "💻 Tech & Official (科技/官方)": [
+                {"name": "Jusbrasil", "url": "https://www.jusbrasil.com.br", "desc": "Largest Legal Tech"},
+                {"name": "STF (Supreme Court)", "url": "https://portal.stf.jus.br", "desc": "Constitutional Court"},
+                {"name": "STJ (High Court)", "url": "https://www.stj.jus.br", "desc": "Superior Court of Justice"},
+                {"name": "Planalto Legislacao", "url": "http://www4.planalto.gov.br/legislacao", "desc": "Federal Laws"},
+                {"name": "CADE", "url": "https://www.gov.br/cade", "desc": "Antitrust Authority"},
+            ]
         },
         "🇲🇽 Mexico (墨西哥)": {
-            "🏛️ Firms": [
-                {"name": "Creel (Creel-García)", "url": "https://www.creel.mx", "desc": "Top Tier"},
-                {"name": "Galicia Abogados", "url": "https://www.galicia.com.mx", "desc": "Finance Focus"},
+            "🏛️ Top Firms": [
+                {"name": "Creel (Creel-García)", "url": "https://www.creel.mx", "desc": "Market Leader"},
+                {"name": "Galicia Abogados", "url": "https://www.galicia.com.mx", "desc": "Finance & Energy"},
+                {"name": "Mijares, Angoitia", "url": "https://www.mamg.com.mx", "desc": "Corporate Elite"},
+                {"name": "Nader, Hayaux & Goebel", "url": "https://nhg.mx", "desc": "Banking & Insurance"},
+                {"name": "Von Wobeser", "url": "https://www.vonwobeser.com", "desc": "Dispute Resolution"},
+                {"name": "Basham, Ringe", "url": "https://basham.com.mx", "desc": "IP Leader"},
+                {"name": "Ritch Mueller", "url": "https://www.ritch.com.mx", "desc": "Projects & Energy"},
             ],
-            "⚖️ Gov": [{"name": "SCJN", "url": "https://www.scjn.gob.mx", "desc": "Supreme Court"}]
+            "⚖️ Official": [
+                {"name": "SCJN", "url": "https://www.scjn.gob.mx", "desc": "Supreme Court"},
+                {"name": "Diario Oficial", "url": "https://www.dof.gob.mx", "desc": "Official Gazette"},
+            ]
         },
         "🇨🇱 Chile (智利)": {
-             "🏛️ Firms": [{"name": "Carey", "url": "https://www.carey.cl", "desc": "Largest in Chile"}],
-             "⚖️ Gov": [{"name": "Poder Judicial", "url": "https://www.pjud.cl", "desc": "Judiciary"}]
+            "🏛️ Top Firms": [
+                {"name": "Carey", "url": "https://www.carey.cl", "desc": "Largest in Chile"},
+                {"name": "Philippi (PPU)", "url": "https://ppulegal.com", "desc": "Regional Powerhouse"},
+                {"name": "Barros & Errázuriz", "url": "https://www.bye.cl", "desc": "Corporate & Tax"},
+                {"name": "Claro & Cía", "url": "https://www.claro.cl", "desc": "Prestigious Elite"},
+                {"name": "Guerrero Olivos", "url": "https://www.guerrero.cl", "desc": "Mining & Finance"},
+            ],
+            "⚖️ Official": [
+                {"name": "Poder Judicial", "url": "https://www.pjud.cl", "desc": "Judiciary"},
+                {"name": "Ley Chile", "url": "https://www.bcn.cl/leychile", "desc": "Library of Congress Laws"},
+            ]
         },
         "🇦🇷 Argentina (阿根廷)": {
-             "🏛️ Firms": [{"name": "Marval O'Farrell", "url": "https://www.marval.com", "desc": "Largest in Argentina"}],
-             "⚖️ Gov": [{"name": "InfoLeg", "url": "http://www.infoleg.gob.ar", "desc": "Legal Info"}]
+            "🏛️ Top Firms": [
+                {"name": "Marval O'Farrell", "url": "https://www.marval.com", "desc": "Largest in Argentina"},
+                {"name": "Beccar Varela", "url": "https://beccarvarela.com", "desc": "Corporate Leader"},
+                {"name": "Bruchou & Funes", "url": "https://bruchoufunes.com", "desc": "Banking & Finance"},
+                {"name": "Pérez Alati (PAGBAM)", "url": "https://www.pagbam.com", "desc": "Full Service"},
+            ],
+            "⚖️ Official": [
+                {"name": "InfoLeg", "url": "http://www.infoleg.gob.ar", "desc": "Legal Information"},
+                {"name": "CSJN", "url": "https://www.csjn.gov.ar", "desc": "Supreme Court"},
+            ]
         },
         "🇨🇴 Colombia (哥伦比亚)": {
-             "🏛️ Firms": [{"name": "Brigard Urrutia", "url": "https://bu.com.co", "desc": "Leading Firm"}],
-             "⚖️ Gov": [{"name": "Rama Judicial", "url": "https://www.ramajudicial.gov.co", "desc": "Judicial Branch"}]
+            "🏛️ Top Firms": [
+                {"name": "Brigard Urrutia", "url": "https://bu.com.co", "desc": "Leading Firm"},
+                {"name": "Posse Herrera Ruiz", "url": "https://www.phrlegal.com", "desc": "M&A and Dispute"},
+                {"name": "Gómez-Pinzón", "url": "https://gomezpinzon.com", "desc": "Full Service"},
+                {"name": "Philippi (PPU)", "url": "https://ppulegal.com", "desc": "Regional Leader"},
+            ],
+            "⚖️ Official": [
+                {"name": "Rama Judicial", "url": "https://www.ramajudicial.gov.co", "desc": "Judicial Branch"},
+                {"name": "Corte Constitucional", "url": "https://www.corteconstitucional.gov.co", "desc": "Constitutional Court"},
+            ]
+        },
+        "🇵🇪 Peru (秘鲁)": {
+            "🏛️ Top Firms": [
+                {"name": "Rodrigo, Elías & Medrano", "url": "https://www.estudiorodrigo.com", "desc": "Market Leader"},
+                {"name": "Miranda & Amado", "url": "https://www.mirandaamado.com", "desc": "Corporate Elite"},
+                {"name": "Payet, Rey, Cauvi", "url": "https://www.prcp.com.pe", "desc": "Finance & M&A"},
+            ],
+            "⚖️ Official": [{"name": "Poder Judicial", "url": "https://www.pj.gob.pe", "desc": "Judiciary"}]
         }
     },
 
-    # ================= 中东与非洲 (MEA) =================
+    # ================= 🕌 中东与非洲 (Middle East & Africa) =================
     "🕌 Middle East & Africa (中东非洲)": {
         "🇦🇪 UAE (阿联酋)": {
-            "🏛️ Firms": [
+            "🏛️ Local Giants & Intl": [
                 {"name": "Al Tamimi & Co", "url": "https://www.tamimi.com", "desc": "Largest MENA Firm"},
                 {"name": "Hadef & Partners", "url": "https://hadefpartners.com", "desc": "UAE Specialist"},
+                {"name": "Afridi & Angell", "url": "https://afridi-angell.com", "desc": "Established Firm"},
+                {"name": "Galadari", "url": "https://www.galadarilaw.com", "desc": "Dispute Resolution"},
+                {"name": "Clyde & Co UAE", "url": "https://www.clydeco.com", "desc": "Top International"},
+                {"name": "Allen & Overy UAE", "url": "https://www.allenovery.com", "desc": "Banking & Projects"},
             ],
-            "⚖️ Gov": [
+            "⚖️ Official & Courts": [
                 {"name": "DIFC Courts", "url": "https://www.difccourts.ae", "desc": "English Law Courts"},
+                {"name": "ADGM Courts", "url": "https://www.adgm.com/courts", "desc": "Abu Dhabi Global Market"},
                 {"name": "MoJ UAE", "url": "https://www.moj.gov.ae", "desc": "Ministry of Justice"},
+                {"name": "SCA", "url": "https://www.sca.gov.ae", "desc": "Securities Authority"},
             ]
         },
         "🇸🇦 Saudi Arabia (沙特)": {
-            "🏛️ Firms": [
+            "🏛️ Top Firms": [
                 {"name": "Khoshaim & Assoc", "url": "https://www.khoshaim.com", "desc": "Top Independent"},
-                {"name": "Zamakhchary", "url": "https://zllaw.sa", "desc": "Corporate"},
+                {"name": "Zamakhchary", "url": "https://zllaw.sa", "desc": "Corporate & Regulatory"},
+                {"name": "Abuhimed Alsheikh (AS&H)", "url": "https://www.ashlawksa.com", "desc": "Clifford Chance Ally"},
+                {"name": "Megren Al-Shaalan", "url": "https://www.whitecase.com", "desc": "White & Case Ally"},
+                {"name": "Derayah", "url": "https://derayahllc.com", "desc": "Dispute Resolution"},
             ],
-            "⚖️ Gov": [{"name": "MoJ KSA", "url": "https://www.moj.gov.sa", "desc": "Ministry of Justice"}]
+            "⚖️ Official": [
+                {"name": "MoJ KSA", "url": "https://www.moj.gov.sa", "desc": "Ministry of Justice"},
+                {"name": "Saudi Laws", "url": "https://laws.boe.gov.sa", "desc": "Bureau of Experts"},
+            ]
         },
         "🇿🇦 South Africa (南非)": {
-            "🏛️ Firms": [
+            "🏛️ Big Five Firms": [
                 {"name": "Bowmans", "url": "https://www.bowmanslaw.com", "desc": "Pan-African Leader"},
                 {"name": "ENSafrica", "url": "https://www.ensafrica.com", "desc": "Largest in Africa"},
                 {"name": "Webber Wentzel", "url": "https://www.webberwentzel.com", "desc": "Linklaters Ally"},
+                {"name": "Werksmans", "url": "https://www.werksmans.com", "desc": "Corporate Commercial"},
+                {"name": "Cliffe Dekker Hofmeyr", "url": "https://www.cliffedekkerhofmeyr.com", "desc": "Full Service"},
             ],
-            "⚖️ Gov": [{"name": "Constitutional Court", "url": "https://www.concourt.org.za", "desc": "Highest Court"}]
+            "⚖️ Official": [
+                {"name": "Constitutional Court", "url": "https://www.concourt.org.za", "desc": "Highest Court"},
+                {"name": "SAFLII", "url": "http://www.saflii.org", "desc": "Free Legal Info"},
+                {"name": "CIPC", "url": "http://www.cipc.co.za", "desc": "Companies Commission"},
+            ]
         },
         "🇮🇱 Israel (以色列)": {
-            "🏛️ Firms": [
+            "🏛️ Top Firms": [
                 {"name": "Herzog Fox & Neeman", "url": "https://www.herzoglaw.co.il", "desc": "Top International"},
                 {"name": "Meitar", "url": "https://meitar.com", "desc": "Tech & Corporate"},
+                {"name": "Fischer (FBC)", "url": "https://www.fbclawyers.com", "desc": "Litigation & RE"},
+                {"name": "Goldfarb Gross Seligman", "url": "https://www.goldfarb.com", "desc": "Mega Firm"},
+                {"name": "Gornitzky", "url": "https://www.gornitzky.com", "desc": "Tax & Commercial"},
             ],
-            "⚖️ Gov": [{"name": "Judicial Authority", "url": "https://www.gov.il/en/departments/the_judicial_authority", "desc": "Courts"}]
+            "⚖️ Official": [
+                {"name": "Judicial Authority", "url": "https://www.gov.il/en/departments/the_judicial_authority", "desc": "Courts"},
+                {"name": "Nevo", "url": "https://www.nevo.co.il", "desc": "Legal Database"},
+            ]
         },
-         "🇪🇬 Egypt (埃及)": {
-             "🏛️ Firms": [{"name": "Matouk Bassiouny", "url": "https://matoukbassiouny.com", "desc": "MENA Leader"}],
-             "⚖️ Gov": [{"name": "Court of Cassation", "url": "https://www.cc.gov.eg", "desc": "High Court"}]
+        "🇪🇬 Egypt (埃及)": {
+             "🏛️ Top Firms": [
+                 {"name": "Matouk Bassiouny", "url": "https://matoukbassiouny.com", "desc": "MENA Leader"},
+                 {"name": "Sharkawy & Sarhan", "url": "https://www.sharkawylaw.com", "desc": "Premium Corporate"},
+                 {"name": "Zulficar & Partners", "url": "https://zulficarpartners.com", "desc": "Arbitration & Finance"},
+                 {"name": "Shalakany", "url": "https://www.shalakany.com", "desc": "Oldest Firm"},
+             ],
+             "⚖️ Official": [{"name": "Court of Cassation", "url": "https://www.cc.gov.eg", "desc": "High Court"}]
+        },
+        "🇳🇬 Nigeria (尼日利亚)": {
+            "🏛️ Top Firms": [
+                {"name": "Aluko & Oyebode", "url": "https://www.aluko-oyebode.com", "desc": "Top Tier"},
+                {"name": "Banwo & Ighodalo", "url": "https://www.banwo-ighodalo.com", "desc": "Corporate & Energy"},
+                {"name": "Templars", "url": "https://www.templars-law.com", "desc": "Full Service"},
+                {"name": "Udo Udoma (UUBO)", "url": "https://www.uubo.org", "desc": "Private Equity"},
+            ],
+            "⚖️ Official": [{"name": "CAC Nigeria", "url": "https://www.cac.gov.ng", "desc": "Corporate Affairs"}]
+        },
+        "🇰🇪 Kenya (肯尼亚)": {
+            "🏛️ Top Firms": [
+                {"name": "Anjarwalla & Khanna", "url": "https://www.africalegalnetwork.com/kenya", "desc": "ALN Leader"},
+                {"name": "Bowmans Kenya", "url": "https://www.bowmanslaw.com", "desc": "Pan-African"},
+                {"name": "Dentons Hamilton Harrison", "url": "https://www.dentons.com", "desc": "Oldest Firm"},
+            ],
+            "⚖️ Official": [{"name": "Kenya Law", "url": "http://kenyalaw.org", "desc": "Case Law"}]
+        },
+        "🇶🇦 Qatar (卡塔尔)": {
+            "🏛️ Firms": [
+                {"name": "Al Sulaiti", "url": "https://www.alsulaitilawfirm.com", "desc": "Full Service"},
+                {"name": "Sharq Law Firm", "url": "https://sharqlawfirm.com", "desc": "Leading Local"},
+            ],
+            "⚖️ Official": [{"name": "QICDRC", "url": "https://www.qicdrc.gov.qa", "desc": "Intl Court"}]
         }
     },
-    
-    # ================= 离岸金融中心 (Offshore) =================
+
+    # ================= 🏝️ 离岸 (Offshore) =================
     "🏝️ Offshore (离岸中心)": {
         "🇰🇾 Cayman Islands (开曼)": {
-            "🏛️ Offshore Magic Circle": [
+            "🏛️ Firms": [
                 {"name": "Maples Group", "url": "https://maples.com", "desc": "Global Offshore Leader"},
                 {"name": "Walkers", "url": "https://www.walkersglobal.com", "desc": "Finance & Funds"},
                 {"name": "Ogier", "url": "https://www.ogier.com", "desc": "Legal & Corporate"},
+                {"name": "Campbells", "url": "https://www.campbellslegal.com", "desc": "Litigation"},
             ],
             "⚖️ Gov": [{"name": "CIMA", "url": "https://www.cima.ky", "desc": "Monetary Authority"}]
         },
@@ -630,7 +836,7 @@ DATA_SOURCE = {
                 {"name": "Harneys", "url": "https://www.harneys.com", "desc": "Leading BVI Firm"},
                 {"name": "Conyers", "url": "https://www.conyers.com", "desc": "Historical Leader"},
             ],
-            "⚖️ Gov": [{"name": "BVI Financial Services", "url": "https://www.bvifsc.vg", "desc": "Regulator"}]
+            "⚖️ Gov": [{"name": "BVI FSC", "url": "https://www.bvifsc.vg", "desc": "Regulator"}]
         }
     }
 }
