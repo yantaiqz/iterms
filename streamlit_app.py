@@ -367,14 +367,14 @@ def render_grid(tools_list, category_name=None):
         display_tag = category_name if category_name else tool.get('tag', '')
         
         card = f"""
-        <a href="{tool['url']}" target="_blank" class="card">
-            <div class="card-header">
-                <div class="icon-box">{tool['icon']}</div>
-                <div class="card-name">{tool['name']}</div>
-            </div>
-            <div class="card-desc">{tool['desc']}</div>
-            <div class="tag">{display_tag}</div>
-        </a>
+<a href="{tool['url']}" target="_blank" class="card">
+    <div class="card-header">
+        <div class="icon-box">{tool['icon']}</div>
+        <div class="card-name">{tool['name']}</div>
+    </div>
+    <div class="card-desc">{tool['desc']}</div>
+    <div class="tag">{display_tag}</div>
+</a>
         """
         html += card
     html += '</div>'
