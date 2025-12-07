@@ -5,8 +5,67 @@ import datetime
 import json
 import os
 
-COUNTER_FILE = "visit_stats.json"
+# 1. 注入 CSS 样式
+st.markdown("""
+<style>
+    /* 底部导航栏容器 */
+    .bottom-nav {
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 60px !important;
+        background-color: rgba(255, 255, 255, 0.90) !important; /* 半透明背景 */
+        backdrop-filter: blur(16px) !important; /* 磨砂玻璃效果 */
+        border-top: 1px solid rgba(226, 232, 240, 0.8) !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-around !important; /* 均匀分布 */
+        padding: 0 10px !important;
+        z-index: 9999 !important;
+        box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.03) !important;
+    }
+    
+    /* 导航项按钮 */
+    .nav-item {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex: 1 !important;
+        height: 40px !important;
+        color: #94a3b8 !important;
+        text-decoration: none !important;
+        font-size: 0.8rem !important;
+        font-weight: 600 !important;
+        border-radius: 8px !important;
+        transition: all 0.2s ease !important;
+        margin: 0 2px !important;
+        white-space: nowrap !important;
+    }
+    
+    .nav-item:hover {
+        background-color: rgba(241, 245, 249, 0.8) !important;
+        color: #64748b !important;
+    }
+    
+    .nav-item.active {
+        color: #2563eb !important;
+        background-color: rgba(59, 130, 246, 0.1) !important;
+    }
+    
+    /* 隐藏链接下划线 */
+    .nav-item:hover, .nav-item:visited, .nav-item:active {
+        text-decoration: none !important;
+    }
+    
+    /* 调整主内容底部边距，防止被导航栏遮挡 */
+    .stApp {
+        padding-bottom: 80px !important;
+    }
+</style>
+""", unsafe_allow_html=True)
 
+COUNTER_FILE = "visit_stats.json"
 def update_daily_visits():
     """读取并更新每日访问量"""
     try:
@@ -160,7 +219,15 @@ UI_TEXT = {
         "filter_placeholder": "Filter by Category",  # <--- 之前漏了这行
         "footer": "© 2025 Legal1000 Global. Logos via Google API.",
         "no_result": "No resources found.",
-        "showing": "Showing {} resources"
+        "showing": "Showing {} resources",
+        "nav_1": "Wealth Rank",
+        "nav_2": "Global Real Estate",
+        "nav_3": "City Housing",
+        "nav_4": "Global Legal",
+        "nav_5": "Global Enterprises",
+        "nav_6": "Contract Review",
+        "nav_7": "German Tax",
+        "nav_8": "Shenzhen Property"
     },
     "ZH": {
         "title": "全球法律与科技 The Legal 1000",
@@ -172,7 +239,15 @@ UI_TEXT = {
         "filter_placeholder": "按分类筛选",  # <--- 之前漏了这行
         "footer": "© 2024 LegalTech Nexus. Logo 由 Google API 自动生成。",
         "no_result": "未找到匹配资源。",
-        "showing": "共显示 {} 个资源"
+        "showing": "共显示 {} 个资源",
+        "nav_1": "财富排行",
+        "nav_2": "世界房产",
+        "nav_3": "城市房价",
+        "nav_4": "全球法律",
+        "nav_5": "全球企业",
+        "nav_6": "合同审查",
+        "nav_7": "德国财税",
+        "nav_8": "深圳房市"
     }
 }
 
@@ -1162,3 +1237,43 @@ if total > 0:
     st.markdown(final_html, unsafe_allow_html=True)
 
 st.markdown(f'<div style="margin-top:50px;text-align:center;color:#9CA3AF;font-size:0.8rem;border-top:1px solid #EEE;padding-top:20px;">{t["footer"]}</div>', unsafe_allow_html=True)
+
+def render_bottom_nav(text_data):
+    """
+    渲染底部导航栏
+    target="_self" 用于在当前窗口打开(通常是主页)
+    target="_blank" 用于在新标签页打开
+    class="nav-item active" 表示该项为当前激活状态
+    """
+    nav_html = f"""
+    <div class="bottom-nav">
+        <a href="https://youqian.streamlit.app/" class="nav-item active" target="_self">
+            {text_data['nav_1']}
+        </a>
+        <a href="https://fangchan.streamlit.app/" class="nav-item" target="_blank">
+            {text_data['nav_2']}
+        </a>
+        <a href="https://fangjia.streamlit.app/" class="nav-item" target="_blank">
+            {text_data['nav_3']}
+        </a>
+        <a href="https://chuhai.streamlit.app/" class="nav-item" target="_blank">
+            {text_data['nav_4']}
+        </a>
+        <a href="https://chuhai.streamlit.app/" class="nav-item" target="_blank">
+            {text_data['nav_5']}
+        </a>
+        <a href="https://chuhai.streamlit.app/" class="nav-item" target="_blank">
+            {text_data['nav_6']}
+        </a>
+        <a href="https://qfschina.streamlit.app/" class="nav-item" target="_blank">
+            {text_data['nav_7']}
+        </a>
+        <a href="https://fangjia.streamlit.app/" class="nav-item" target="_blank">
+            {text_data['nav_8']}
+        </a>
+    </div>
+    """
+    st.markdown(nav_html, unsafe_allow_html=True)
+    
+# 调用渲染函数
+render_bottom_nav(NAV_TEXT)
