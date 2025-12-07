@@ -52,9 +52,10 @@ ICONS = {
 
 # 数据结构：区域组 -> 国家 -> 分类 -> 列表
 DATA_SOURCE = {
-    # ================= 亚太地区 (APAC) =================
+
+    # ================= 🌏 亚太地区 (Asia Pacific) =================
     "🌏 Asia Pacific (亚太)": {
-       "🇨🇳 China (中国)": {
+        "🇨🇳 China (中国)": {
             "🏛️ Red Circle & Top Firms (红圈/顶级律所)": [
                 {"name": "金杜 (KWM)", "url": "https://www.kwm.com", "desc": "Red Circle Elite"},
                 {"name": "君合 (JunHe)", "url": "https://www.junhe.com", "desc": "Premier Commercial Firm"},
@@ -91,22 +92,14 @@ DATA_SOURCE = {
                 {"name": "法兰克 (Frank)", "url": "http://www.franklawfirm.com", "desc": "IP & Tech"},
                 {"name": "浩天 (Hao Tian)", "url": "http://www.haotianlawyers.com", "desc": "Dispute Resolution"},
             ],
-            "⚖️ Official & Judiciary (官方司法/监管)": [
-                {"name": "裁判文书网", "url": "https://wenshu.court.gov.cn", "desc": "Supreme Court Judgments"},
-                {"name": "法律法规库", "url": "https://flk.npc.gov.cn", "desc": "Official Laws Database"},
-                {"name": "执行信息网", "url": "http://zxgk.court.gov.cn", "desc": "Enforcement Information"},
-                {"name": "庭审公开网", "url": "http://tingshen.court.gov.cn", "desc": "Court Trial Live"},
-                {"name": "知识产权局 (CNIPA)", "url": "https://www.cnipa.gov.cn", "desc": "Patent & Trademark Office"},
-                {"name": "市监总局 (SAMR)", "url": "https://www.samr.gov.cn", "desc": "Antitrust & Regulation"},
-                {"name": "网信办 (CAC)", "url": "http://www.cac.gov.cn", "desc": "Cybersecurity"},
-                {"name": "证监会 (CSRC)", "url": "http://www.csrc.gov.cn", "desc": "Securities Regulator"},
-                {"name": "最高检 (SPP)", "url": "https://www.spp.gov.cn", "desc": "Supreme Procuratorate"},
-                {"name": "司法部 (MoJ)", "url": "http://www.moj.gov.cn", "desc": "Ministry of Justice"},
-                {"name": "中国律协", "url": "http://www.allchina-lawyers.org", "desc": "All China Lawyers Assn"},
-                {"name": "贸仲委 (CIETAC)", "url": "http://www.cietac.org", "desc": "Intl Arbitration"},
-                {"name": "北仲 (BAC)", "url": "https://www.bjac.org.cn", "desc": "Beijing Arbitration"},
-                {"name": "深仲 (SCIA)", "url": "http://www.scia.com.cn", "desc": "Shenzhen Arbitration"},
-                {"name": "上仲 (SHiac)", "url": "http://www.shiac.org", "desc": "Shanghai Arbitration"},
+            "🔬 IP & Boutique (知识产权/精品)": [
+                {"name": "CCPIT Patent (贸促会)", "url": "https://www.ccpit-patent.com.cn", "desc": "Oldest IP Agency"},
+                {"name": "Lung Tin (隆天)", "url": "http://www.lungtin.com", "desc": "IP Litigation"},
+                {"name": "Liu, Shen (柳沈)", "url": "http://www.liushen.com", "desc": "Patent Prosecution"},
+                {"name": "Wanhuida (万慧达)", "url": "http://www.wanhuida.com", "desc": "Trademark & IP"},
+                {"name": "Merits & Tree (植德)", "url": "http://www.meritsandtree.com", "desc": "Asset Management"},
+                {"name": "Llinks (通力)", "url": "http://www.llinkslaw.com", "desc": "Financial Law"},
+                {"name": "AnJie Broad (安杰世泽)", "url": "http://www.anjielaw.com", "desc": "Antitrust & Insurance"},
             ],
             "🤖 LegalTech & Data (科技/数据)": [
                 {"name": "北大法宝", "url": "https://www.pkulaw.com", "desc": "Leading Legal Database"},
@@ -131,6 +124,52 @@ DATA_SOURCE = {
                 {"name": "甫瀚咨询 (Protiviti)", "url": "https://www.protiviti.com", "desc": "Risk & Compliance"},
                 {"name": "贝克顾法律 (Baker & McKenzie CN)", "url": "https://www.bakermckenzie.com", "desc": "Foreign Law Firm"},
             ],
+            "⚖️ Official & Judiciary (官方司法/监管)": [
+                {"name": "裁判文书网", "url": "https://wenshu.court.gov.cn", "desc": "Supreme Court Judgments"},
+                {"name": "法律法规库", "url": "https://flk.npc.gov.cn", "desc": "Official Laws Database"},
+                {"name": "执行信息网", "url": "http://zxgk.court.gov.cn", "desc": "Enforcement Information"},
+                {"name": "庭审公开网", "url": "http://tingshen.court.gov.cn", "desc": "Court Trial Live"},
+                {"name": "知识产权局 (CNIPA)", "url": "https://www.cnipa.gov.cn", "desc": "Patent & Trademark Office"},
+                {"name": "市监总局 (SAMR)", "url": "https://www.samr.gov.cn", "desc": "Antitrust & Regulation"},
+                {"name": "网信办 (CAC)", "url": "http://www.cac.gov.cn", "desc": "Cybersecurity"},
+                {"name": "证监会 (CSRC)", "url": "http://www.csrc.gov.cn", "desc": "Securities Regulator"},
+                {"name": "最高检 (SPP)", "url": "https://www.spp.gov.cn", "desc": "Supreme Procuratorate"},
+                {"name": "司法部 (MoJ)", "url": "http://www.moj.gov.cn", "desc": "Ministry of Justice"},
+                {"name": "中国律协", "url": "http://www.allchina-lawyers.org", "desc": "All China Lawyers Assn"},
+                {"name": "贸仲委 (CIETAC)", "url": "http://www.cietac.org", "desc": "Intl Arbitration"},
+                {"name": "北仲 (BAC)", "url": "https://www.bjac.org.cn", "desc": "Beijing Arbitration"},
+                {"name": "深仲 (SCIA)", "url": "http://www.scia.com.cn", "desc": "Shenzhen Arbitration"},
+                {"name": "上仲 (SHiac)", "url": "http://www.shiac.org", "desc": "Shanghai Arbitration"},
+            ],
+        },        
+        "🇯🇵 Japan (日本)": {
+            "🏛️ Big Four (四大律所)": [
+                {"name": "Nishimura & Asahi", "url": "https://www.nishimura.com", "desc": "Largest in Japan"},
+                {"name": "Nagashima Ohno (NO&T)", "url": "https://www.noandt.com", "desc": "Corporate Elite"},
+                {"name": "Mori Hamada (MHM)", "url": "https://www.mhmjapan.com", "desc": "M&A and Finance"},
+                {"name": "Anderson Mori (AMT)", "url": "https://www.amt-law.com", "desc": "International Focus"},
+            ],
+            "⛩️ Major Firms (主要律所)": [
+                {"name": "TMI Associates", "url": "https://www.tmi.gr.jp", "desc": "IP & Corporate Mix"},
+                {"name": "City-Yuwa", "url": "https://www.city-yuwa.com", "desc": "Finance Real Estate"},
+                {"name": "Atsumi & Sakai", "url": "https://www.aplaw.jp", "desc": "Fintech Innovation"},
+                {"name": "Oh-Ebashi", "url": "https://www.ohebashi.com", "desc": "Osaka Leader"},
+                {"name": "Ushijima & Partners", "url": "https://www.ushijima-law.gr.jp", "desc": "Litigation"},
+            ],
+            "🌍 Gaiben (外资所)": [
+                {"name": "Baker McKenzie Tokyo", "url": "https://www.bakermckenzie.co.jp", "desc": "Largest International"},
+                {"name": "Morrison Foerster", "url": "https://www.mofo.com", "desc": "Tech & IP Leader"},
+                {"name": "White & Case Tokyo", "url": "https://www.whitecase.com", "desc": "Projects"},
+                {"name": "Skadden Tokyo", "url": "https://www.skadden.com", "desc": "M&A"},
+            ],
+            "💻 Tech & Official": [
+                {"name": "Bengo4.com", "url": "https://www.bengo4.com", "desc": "Lawyer Portal"},
+                {"name": "LegalOn Cloud", "url": "https://www.legalon-cloud.com", "desc": "AI Contract"},
+                {"name": "CloudSign", "url": "https://www.cloudsign.jp", "desc": "E-Signature"},
+                {"name": "MNTSQ", "url": "https://www.mntsq.co.jp", "desc": "Contract Database"},
+                {"name": "J-PlatPat", "url": "https://www.j-platpat.inpit.go.jp", "desc": "IP Database"},
+                {"name": "e-Gov Japan", "url": "https://www.e-gov.go.jp", "desc": "Laws"},
+            ]
         },
         "🇸🇬 Singapore (新加坡)": {
             "🏛️ Big Four Firms": [
@@ -168,6 +207,58 @@ DATA_SOURCE = {
                 {"name": "PwC Legal SG", "url": "https://www.pwc.com/sg", "desc": "Advisory"},
             ]
         },
+        "🇰🇷 South Korea (韩国)": {
+            "🏛️ Big 6 Firms": [
+                {"name": "Kim & Chang", "url": "https://www.kimchang.com", "desc": "Dominant Leader"},
+                {"name": "Lee & Ko", "url": "http://www.leeko.com", "desc": "Premier Firm"},
+                {"name": "Bae, Kim & Lee (BKL)", "url": "https://www.bkl.co.kr", "desc": "Litigation"},
+                {"name": "Shin & Kim", "url": "https://www.shinkim.com", "desc": "Global Corp"},
+                {"name": "Yulchon", "url": "https://www.yulchon.com", "desc": "Tax & Dispute"},
+                {"name": "Yoon & Yang", "url": "https://www.yoonyang.com", "desc": "Antitrust"},
+            ],
+            "⚖️ Official": [
+                {"name": "Supreme Court", "url": "https://eng.scourt.go.kr", "desc": "Judiciary"},
+                {"name": "Statutes of Korea", "url": "https://elaw.klri.re.kr", "desc": "Laws"},
+                {"name": "KIPO", "url": "https://www.kipo.go.kr", "desc": "IP Office"},
+            ]
+        },
+        "🇮🇳 India (印度)": {
+            "🏛️ Top Firms": [
+                {"name": "Cyril Amarchand Mangaldas", "url": "https://www.cyrilshroff.com", "desc": "Largest Firm"},
+                {"name": "Shardul Amarchand Mangaldas", "url": "https://www.amsshardul.com", "desc": "Premium Corp"},
+                {"name": "Khaitan & Co", "url": "https://www.khaitanco.com", "desc": "Oldest & Leading"},
+                {"name": "AZB & Partners", "url": "https://www.azbpartners.com", "desc": "M&A Specialist"},
+                {"name": "Trilegal", "url": "https://www.trilegal.com", "desc": "Modern Full Service"},
+                {"name": "IndusLaw", "url": "https://www.induslaw.com", "desc": "Tech & VC"},
+                {"name": "Nishith Desai", "url": "https://www.nishithdesai.com", "desc": "Tax & Tech Boutique"},
+            ],
+            "⚖️ Gov": [
+                {"name": "Supreme Court", "url": "https://main.sci.gov.in", "desc": "Highest Court"},
+                {"name": "Manupatra", "url": "https://www.manupatra.com", "desc": "Legal Research"},
+            ]
+        },
+        "🇭🇰 Hong Kong (香港)": {
+             "🏛️ Firms": [
+                 {"name": "Deacons", "url": "https://www.deacons.com", "desc": "Largest Independent"},
+                 {"name": "Woo Kwan Lee & Lo", "url": "https://www.wkll.com", "desc": "Real Estate"},
+                 {"name": "Gall", "url": "https://www.gallhk.com", "desc": "Dispute Resolution"},
+                 {"name": "Mayer Brown", "url": "https://www.mayerbrown.com", "desc": "Major Presence"},
+                 {"name": "King & Wood HK", "url": "https://www.kwm.com", "desc": "KWM Base"},
+             ],
+             "⚖️ Official": [
+                 {"name": "Judiciary", "url": "https://www.judiciary.hk", "desc": "Courts"},
+                 {"name": "HKLII", "url": "https://www.hklii.org", "desc": "Free Law"},
+                 {"name": "HKIAC", "url": "https://www.hkiac.org", "desc": "Arbitration"},
+             ]
+        },
+        "🇹🇼 Taiwan (中国台湾)": {
+            "🏛️ Firms": [
+                {"name": "Lee and Li (理律)", "url": "https://www.leeandli.com", "desc": "Largest Firm"},
+                {"name": "Tsar & Tsai (常在)", "url": "https://www.tsartsai.com.tw", "desc": "Corporate"},
+                {"name": "Formosa Transnational", "url": "https://www.fts.com.tw", "desc": "Litigation"},
+            ],
+            "⚖️ Official": [{"name": "Laws Database", "url": "https://law.moj.gov.tw", "desc": "MoJ Database"}]
+        },
         "🇦🇺 Australia (澳大利亚)": {
             "🏛️ Top Tier Firms": [
                 {"name": "King & Wood Mallesons AU", "url": "https://www.kwm.com/au", "desc": "Top Tier Intl"},
@@ -189,74 +280,70 @@ DATA_SOURCE = {
                 {"name": "Law Council of Australia", "url": "https://www.lawcouncil.asn.au", "desc": "Peak Body"},
             ]
         },
-        "🇮🇳 India (印度)": {
-            "🏛️ Top Firms": [
-                {"name": "Cyril Amarchand Mangaldas", "url": "https://www.cyrilshroff.com", "desc": "Largest Law Firm"},
-                {"name": "Shardul Amarchand Mangaldas", "url": "https://www.amsshardul.com", "desc": "Premium Corporate"},
-                {"name": "Khaitan & Co", "url": "https://www.khaitanco.com", "desc": "Oldest & Leading"},
-                {"name": "AZB & Partners", "url": "https://www.azbpartners.com", "desc": "M&A Specialist"},
-            ],
-            "⚖️ Official": [
-                {"name": "Supreme Court of India", "url": "https://main.sci.gov.in", "desc": "Highest Court"},
-                {"name": "MCA", "url": "https://www.mca.gov.in", "desc": "Ministry of Corp Affairs"},
-                {"name": "SCC Online", "url": "https://www.scconline.com", "desc": "Legal Research"},
-            ]
-        },
-        "🇰🇷 South Korea (韩国)": {
-            "🏛️ Big 6 Firms": [
-                {"name": "Kim & Chang", "url": "https://www.kimchang.com", "desc": "Largest in Korea"},
-                {"name": "Lee & Ko", "url": "http://www.leeko.com", "desc": "Full Service"},
-                {"name": "Bae, Kim & Lee", "url": "https://www.bkl.co.kr", "desc": "Litigation & Corp"},
-                {"name": "Shin & Kim", "url": "https://www.shinkim.com", "desc": "Major Global Firm"},
-            ],
-            "⚖️ Official": [
-                {"name": "Supreme Court KR", "url": "https://eng.scourt.go.kr", "desc": "Judiciary"},
-                {"name": "Statutes of Korea", "url": "https://elaw.klri.re.kr", "desc": "Laws Translation"},
-            ]
-        },
-        "🇯🇵 Japan (日本)": { "数据已包含，此处略以节省展示...": [] }, # 逻辑占位
-        "🇭🇰 Hong Kong (香港)": { "数据已包含，此处略...": [] },
-        "🇮🇩 Indonesia (印尼)": {
-             "🏛️ Firms": [{"name": "Hadiputranto (HHP)", "url": "https://www.hhp.co.id", "desc": "Baker McKenzie Member"}],
-             "⚖️ Gov": [{"name": "Mahkamah Agung", "url": "https://www.mahkamahagung.go.id", "desc": "Supreme Court"}]
-        },
         "🇻🇳 Vietnam (越南)": {
-             "🏛️ Firms": [{"name": "VILAF", "url": "https://www.vilaf.com.vn", "desc": "Leading Business Firm"}],
-             "⚖️ Gov": [{"name": "MoJ Vietnam", "url": "https://moj.gov.vn", "desc": "Ministry of Justice"}]
+             "🏛️ Firms": [
+                 {"name": "VILAF", "url": "https://www.vilaf.com.vn", "desc": "Leading Local"},
+                 {"name": "YKVN", "url": "https://ykvn-law.com", "desc": "Litigation"},
+                 {"name": "Tilleke & Gibbins", "url": "https://www.tilleke.com", "desc": "IP Expert"},
+             ]
+        },
+        "🇮🇩 Indonesia (印尼)": {
+             "🏛️ Firms": [
+                 {"name": "Hadiputranto (HHP)", "url": "https://www.hhp.co.id", "desc": "Baker McKenzie"},
+                 {"name": "Assegaf Hamzah", "url": "https://www.ahp.co.id", "desc": "Top Tier"},
+                 {"name": "SSEK", "url": "https://www.ssek.com", "desc": "Consultants"},
+             ]
         },
         "🇹🇭 Thailand (泰国)": {
-             "🏛️ Firms": [{"name": "Weerawong C&P", "url": "https://www.weerawongcp.com", "desc": "Top Thai Firm"}],
-             "⚖️ Gov": [{"name": "Legal Execution Dept", "url": "https://www.led.go.th", "desc": "Enforcement"}]
+             "🏛️ Firms": [
+                 {"name": "Weerawong C&P", "url": "https://www.weerawongcp.com", "desc": "Top Thai"},
+                 {"name": "Chandler MHM", "url": "https://www.chandlermhm.com", "desc": "Energy"},
+             ]
         },
-         "🇲🇾 Malaysia (马来西亚)": {
-             "🏛️ Firms": [{"name": "Shearn Delamore", "url": "https://www.shearndelamore.com", "desc": "Top Tier"}],
-             "⚖️ Gov": [{"name": "MyIPO", "url": "https://www.myipo.gov.my", "desc": "Intellectual Property"}]
-        },
-        "🇵🇭 Philippines (菲律宾)": {
-             "🏛️ Firms": [{"name": "SyCipLaw", "url": "https://www.syciplaw.com", "desc": "Oldest & Largest"}],
-             "⚖️ Gov": [{"name": "Supreme Court PH", "url": "https://sc.judiciary.gov.ph", "desc": "Judiciary"}]
+        "🇲🇾 Malaysia (马来西亚)": {
+             "🏛️ Firms": [
+                 {"name": "Shearn Delamore", "url": "https://www.shearndelamore.com", "desc": "Top Tier"},
+                 {"name": "Skrine", "url": "https://www.skrine.com", "desc": "Large Firm"},
+                 {"name": "Rahmat Lim", "url": "https://www.rahmatlim.com", "desc": "A&G Affiliate"},
+             ]
         },
     },
 
     # ================= 北美 (North America) =================
+
     "🌎 North America (北美)": {
-        "🇺🇸 USA (美国)": { 
-            "🏛️ Am Law 50 Elite (顶级律所)": [
-                {"name": "Kirkland & Ellis", "url": "https://www.kirkland.com", "desc": "PE & Litigation"},
+        "🇺🇸 USA (美国)": {
+            "🏛️ Am Law 20 Elite (顶级律所)": [
+                {"name": "Kirkland & Ellis", "url": "https://www.kirkland.com", "desc": "#1 Revenue Global"},
                 {"name": "Latham & Watkins", "url": "https://www.lw.com", "desc": "Global Elite"},
-                {"name": "Skadden", "url": "https://www.skadden.com", "desc": "M&A Powerhouse"},
-                {"name": "Sidley Austin", "url": "https://www.sidley.com", "desc": "Regulatory & Corporate"},
-                {"name": "White & Case", "url": "https://www.whitecase.com", "desc": "Intl Arbitration"},
+                {"name": "Skadden Arps", "url": "https://www.skadden.com", "desc": "M&A Powerhouse"},
+                {"name": "Sidley Austin", "url": "https://www.sidley.com", "desc": "Regulatory & Corp"},
                 {"name": "Morgan Lewis", "url": "https://www.morganlewis.com", "desc": "Labor & Employment"},
-                {"name": "Hogan Lovells", "url": "https://www.hoganlovells.com", "desc": "Regulatory"},
-                {"name": "Gibson Dunn", "url": "https://www.gibsondunn.com", "desc": "High-stakes Lit"},
+                {"name": "White & Case", "url": "https://www.whitecase.com", "desc": "Intl Arbitration"},
+                {"name": "Hogan Lovells", "url": "https://www.hoganlovells.com", "desc": "Gov & Regulatory"},
+                {"name": "DLA Piper", "url": "https://www.dlapiper.com", "desc": "Global Volume"},
+                {"name": "Jones Day", "url": "https://www.jonesday.com", "desc": "Litigation"},
                 {"name": "Ropes & Gray", "url": "https://www.ropesgray.com", "desc": "Private Equity"},
-                {"name": "Sullivan & Cromwell", "url": "https://www.sullcrom.com", "desc": "Banking & Finance"},
-                {"name": "Wachtell Lipton", "url": "https://www.wlrk.com", "desc": "M&A Boutique"},
-                {"name": "Weil Gotshal", "url": "https://www.weil.com", "desc": "Restructuring"},
+                {"name": "Gibson Dunn", "url": "https://www.gibsondunn.com", "desc": "High-stakes Lit"},
+                {"name": "Simpson Thacher", "url": "https://www.stblaw.com", "desc": "Banking & PE"},
+                {"name": "Davis Polk", "url": "https://www.davispolk.com", "desc": "Capital Markets"},
+                {"name": "Sullivan & Cromwell", "url": "https://www.sullcrom.com", "desc": "Finance Prestige"},
                 {"name": "Paul Weiss", "url": "https://www.paulweiss.com", "desc": "Litigation Elite"},
+                {"name": "Cravath", "url": "https://www.cravath.com", "desc": "White Shoe"},
+                {"name": "Wachtell Lipton", "url": "https://www.wlrk.com", "desc": "M&A Boutique"},
+                {"name": "Cleary Gottlieb", "url": "https://www.clearygottlieb.com", "desc": "Intl Finance"},
+                {"name": "Weil Gotshal", "url": "https://www.weil.com", "desc": "Restructuring"},
+                {"name": "Goodwin", "url": "https://www.goodwinlaw.com", "desc": "Life Sciences"},
             ],
-            "🦄 Tech & Boutique Firms (科技/精品所)": [
+            "⚔️ Litigation & Employment (诉讼/劳动)": [
+                {"name": "Quinn Emanuel", "url": "https://www.quinnemanuel.com", "desc": "Litigation Only"},
+                {"name": "Boies Schiller", "url": "https://www.bsfllp.com", "desc": "High Profile Lit"},
+                {"name": "Littler Mendelson", "url": "https://www.littler.com", "desc": "Employment Global"},
+                {"name": "Jackson Lewis", "url": "https://www.jacksonlewis.com", "desc": "Workplace Law"},
+                {"name": "Ogletree Deakins", "url": "https://ogletree.com", "desc": "Labor Law"},
+                {"name": "Fragomen", "url": "https://www.fragomen.com", "desc": "Immigration"},
+            ],
+             "🦄 Tech & Boutique Firms (科技/精品所)": [
                 {"name": "Cooley", "url": "https://www.cooley.com", "desc": "Tech & Life Sciences"},
                 {"name": "Wilson Sonsini", "url": "https://www.wsgr.com", "desc": "Silicon Valley Pioneer"},
                 {"name": "Fenwick & West", "url": "https://www.fenwick.com", "desc": "Tech Transactions"},
@@ -285,33 +372,71 @@ DATA_SOURCE = {
                 {"name": "Intapp", "url": "https://www.intapp.com", "desc": "Firm Management Software"},
                 {"name": "DISCO", "url": "https://www.csdisco.com", "desc": "E-Discovery SaaS"},
                 {"name": "Evisort", "url": "https://www.evisort.com", "desc": "AI Contract Mgmt"},
-            ],
-             "⚖️ Official & Gov (官方机构)": [
-                {"name": "USPTO", "url": "https://www.uspto.gov", "desc": "Patents"},
-                {"name": "SEC Edgar", "url": "https://www.sec.gov", "desc": "Company Filings"},
-                {"name": "Regulations.gov", "url": "https://www.regulations.gov", "desc": "Federal Rules"},
-                {"name": "ABA", "url": "https://www.americanbar.org", "desc": "American Bar Association"},
+            ], 
+            "⚖️ Official (官方)": [
                 {"name": "Supreme Court", "url": "https://www.supremecourt.gov", "desc": "SCOTUS"},
-                {"name": "DOJ", "url": "https://www.justice.gov", "desc": "Dept of Justice"},
-                {"name": "FTC", "url": "https://www.ftc.gov", "desc": "Consumer Protection"},
+                {"name": "USPTO", "url": "https://www.uspto.gov", "desc": "Patents"},
+                {"name": "SEC Edgar", "url": "https://www.sec.gov", "desc": "Filings"},
+                {"name": "Regulations.gov", "url": "https://www.regulations.gov", "desc": "Rulemaking"},
             ]
         },
         "🇨🇦 Canada (加拿大)": {
-            "🏛️ Seven Sisters (顶级律所)": [
+            "🏛️ Seven Sisters (七大律所)": [
                 {"name": "McCarthy Tétrault", "url": "https://www.mccarthy.ca", "desc": "Innovation Leader"},
                 {"name": "Blake, Cassels", "url": "https://www.blakes.com", "desc": "Business Law"},
                 {"name": "Osler", "url": "https://www.osler.com", "desc": "Tech & Tax Focus"},
                 {"name": "Torys", "url": "https://www.torys.com", "desc": "Cross-border M&A"},
                 {"name": "Stikeman Elliott", "url": "https://www.stikeman.com", "desc": "Corporate Finance"},
+                {"name": "Davies Ward", "url": "https://www.dwpv.com", "desc": "High-stakes Deal"},
+                {"name": "Goodmans", "url": "https://www.goodmans.ca", "desc": "REITs & Restructuring"},
             ],
-            "⚖️ Official & Tech": [
+            "⚖️ Major Firms": [
+                {"name": "Gowling WLG", "url": "https://gowlingwlg.com", "desc": "IP & International"},
+                {"name": "Norton Rose Fulbright CA", "url": "https://www.nortonrosefulbright.com", "desc": "Global"},
+                {"name": "Fasken", "url": "https://www.fasken.com", "desc": "Mining & Litigation"},
+                {"name": "Borden Ladner Gervais (BLG)", "url": "https://www.blg.com", "desc": "Largest Full Service"},
+                {"name": "Dentons Canada", "url": "https://www.dentons.com", "desc": "Polycentric"},
+                {"name": "Bennett Jones", "url": "https://www.bennettjones.com", "desc": "Energy Focus"},
+            ],
+            "💻 Tech & Gov": [
                 {"name": "CanLII", "url": "https://www.canlii.org", "desc": "Free Legal Database"},
                 {"name": "SCC", "url": "https://www.scc-csc.ca", "desc": "Supreme Court"},
-                {"name": "Clio", "url": "https://www.clio.com", "desc": "Practice Management (HQ)"},
                 {"name": "Kira Systems", "url": "https://kirasystems.com", "desc": "AI Contract Review"},
+                {"name": "Clio (HQ)", "url": "https://www.clio.com", "desc": "Practice Management"},
             ]
+        },
+        "🇲🇽 Mexico (墨西哥)": {
+            "🏛️ Top Firms": [
+                {"name": "Creel (Creel-García)", "url": "https://www.creel.mx", "desc": "Top Tier"},
+                {"name": "Galicia Abogados", "url": "https://www.galicia.com.mx", "desc": "Finance Focus"},
+                {"name": "Nader, Hayaux & Goebel", "url": "https://nhg.mx", "desc": "Banking & Insurance"},
+                {"name": "Mijares, Angoitia", "url": "https://www.mamg.com.mx", "desc": "Corporate"},
+                {"name": "Basham", "url": "https://basham.com.mx", "desc": "IP Leader"},
+            ],
+            "⚖️ Gov": [{"name": "SCJN", "url": "https://www.scjn.gob.mx", "desc": "Supreme Court"}]
+        },
+        "🇧🇲 Bermuda (百慕大)": {
+            "🏛️ Offshore Leaders": [
+                {"name": "Conyers", "url": "https://www.conyers.com", "desc": "Leading Firm"},
+                {"name": "Appleby", "url": "https://www.applebyglobal.com", "desc": "Global Offshore"},
+                {"name": "Walkers", "url": "https://www.walkersglobal.com", "desc": "Finance Focus"},
+            ],
+             "⚖️ Official": [{"name": "Bermuda Laws", "url": "http://www.bermudalaws.bm", "desc": "Legislation"}]
+        },
+        "🇵🇦 Panama (巴拿马)": {
+             "🏛️ Firms": [
+                 {"name": "Morgan & Morgan", "url": "https://www.morimor.com", "desc": "Largest in Panama"},
+                 {"name": "Arias, Fábrega (ARIFA)", "url": "https://www.arifajo.com", "desc": "Top Tier"},
+             ]
+        },
+         "🇨🇷 Costa Rica (哥斯达黎加)": {
+             "🏛️ Firms": [
+                 {"name": "BLP", "url": "https://www.blplegal.com", "desc": "Business Law"},
+                 {"name": "Consortium Legal", "url": "https://consortiumlegal.com", "desc": "Regional"},
+             ]
         }
     },
+
 
     # ================= 欧洲 (Europe / EMEA) =================
     "🌍 Europe (欧洲)": {
