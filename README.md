@@ -1,19 +1,66 @@
-# 🎈 Blank app template
+# ⚖️ LegalTech Global 1000：全球法律与科技资源目录
 
-A simple Streamlit app template for you to modify!
+**关键词：** `LegalTech`、`法律科技`、`全球律所`、`法律资源`、`司法查询`、`合规工具`、`Streamlit`
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## 🌟 项目简介
 
-### How to run it on your own machine
+**LegalTech Global 1000** 是一个基于 **Streamlit** 框架构建的**交互式全球法律与科技资源目录**。它汇集了超过 50 个主要司法管辖区（如中国、美国、英国、日本、新加坡、欧盟等）的**顶尖律所**、**法律科技（LegalTech）公司**、**官方司法机构**和**重要监管资源**。
 
-1. Install the requirements
+无论您是法律专业人士、跨境业务的企业家，还是对全球法律生态感兴趣的研究人员，这个工具都能助您**一站式**快速查找所需的全球法律实体和信息。
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## 🎯 核心价值与功能 (SEO 优化点)
 
-2. Run the app
+我们致力于成为**全球法律信息查询**领域的权威资源。
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+  * **🌐 强大的全球覆盖 (Global Law Directory):** 目录涵盖了 **亚太 (Asia Pacific)**、**北美 (North America)**、**欧洲 (Europe)**、**拉丁美洲 (Latin America)**、**中东与非洲 (Middle East & Africa)** 和**离岸中心 (Offshore)** 等六大地理区域，收录了各国/地区的 **顶尖律所** (如中国红圈所、日本四大所、美国 Am Law 20、英国 Magic Circle 等)。
+  * **💻 法律科技与合规工具 (LegalTech Solutions):** 专门收录了全球领先的 **法律科技** 平台、AI 合同审查工具、电子签名服务、法律数据库（如 Westlaw、北大法宝、Jusbrasil）和 **公司合规/数据监管** 资源。
+  * **🏛️ 官方司法与监管机构 (Official & Judiciary):** 提供各国 **最高法院**、**知识产权局 (IP)**、**证券监管机构 (SEC/CSRC)** 等官方网站的快速链接，方便进行**司法查询**和**监管合规**。
+  * **⚡️ Streamlit 驱动的快速体验:** 凭借 Streamlit 的简洁性，提供**快速、响应式**的筛选、搜索和浏览体验。
+  * **🆓 限时试用与付费解锁机制:** 包含一个安全、简单的 **免费试用 + 密码解锁** 机制，确保核心数据内容的价值。
+
+## 🚀 如何使用
+
+1.  **选择区域板块:** 在主界面的下拉菜单中，首先选择一个大的地理区域（如 `🌏 Asia Pacific (亚太)`）。
+2.  **选择管辖区:** 进一步选择具体的国家/地区（如 `🇨🇳 China (中国)`、`🇺🇸 USA (美国)`）。
+3.  **筛选或搜索:**
+      * 使用 **分类筛选器** (Filter Categories) 快速定位 **律所 (Firms)**、**科技 (LegalTech)** 或 **官方机构 (Official)**。
+      * 使用 **搜索框** (Search) 输入律所或产品的关键词进行模糊匹配。
+4.  **点击访问:** 点击任一卡片即可跳转至该机构的官方网站。
+
+## ⚙️ 技术栈
+
+  * **核心框架:** **Streamlit** (Python)
+  * **数据存储:** Python 字典 (作为目录数据库)
+  * **样式优化:** 自定义 CSS/Markdown 注入，实现了硅谷风格 UI 和底部的**磨砂玻璃**导航栏效果。
+  * **Logo/Favicon:** 动态调用 **Google Favicon API** 以实时加载机构 Logo。
+  * **访问控制:** 利用 `st.session_state` 实现基于时间的**限时免费试用**和**密码认证解锁**机制。
+
+## 🔑 访问与部署
+
+该应用的代码示例展示了如何实现一个**限时试用**（`FREE_PERIOD_SECONDS = 60`）和一个简单的**付费解锁**（密码：`vip24`）机制。
+
+### 运行环境要求
+
+要本地运行此应用，您需要安装 Python 3.8+ 和 Streamlit。
+
+```bash
+# 1. 克隆代码库 (假设您已将代码保存为 app.py)
+# git clone <your_repo_link>
+# cd <your_repo_folder>
+
+# 2. 安装依赖
+pip install streamlit
+
+# 3. 运行应用
+streamlit run app.py
+```
+
+-----
+
+## 💡 扩展与贡献
+
+本项目旨在构建一个不断更新的全球法律资源索引。如果您希望**贡献**或**纠正**任何信息，欢迎提出 Issue 或 Pull Request。
+
+**特别鸣谢:** 感谢 Streamlit 提供的简洁而强大的 Web 应用部署能力。
+
+**[在线体验 LegalTech Global 1000 - 实时更新的全球法律生态图谱]** *(请替换为您应用的实际部署链接)*
