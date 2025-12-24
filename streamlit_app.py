@@ -1150,4 +1150,4 @@ def render_bottom_nav(text_data):
     """
     st.markdown(nav_html, unsafe_allow_html=True)
     
-render_bottom_nav(t)
+# render_bottom_nav(t)
