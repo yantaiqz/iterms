@@ -1047,7 +1047,7 @@ with col_h_tools:
         st.markdown(
             f"""
             <a href="https://haowan.streamlit.app/" target="_blank" class="neal-btn-link">
-                <button class="neal-btn">✨ 更多好玩 / More Apps</button>
+                #<button class="neal-btn">✨ 更多好玩 / More Apps</button>
             </a>
             """, 
             unsafe_allow_html=True
