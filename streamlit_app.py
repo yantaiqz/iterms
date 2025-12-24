@@ -1043,12 +1043,11 @@ with col_h_tools:
              st.rerun()
 
     with c_link:
-        # 更多应用按钮
+        # 更多应用按钮 <button class="neal-btn">✨ 更多好玩 / More Apps</button>
         st.markdown(
             f"""
             <a href="https://haowan.streamlit.app/" target="_blank" class="neal-btn-link">
                 
-    /* 隐藏默认元素 <button class="neal-btn">✨ 更多好玩 / More Apps</button>*/
             </a>
             """, 
             unsafe_allow_html=True
